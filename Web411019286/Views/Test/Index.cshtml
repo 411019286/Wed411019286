@@ -27,3 +27,18 @@
     <input type="email" name="name" value="" />
 </p>
 
+
+    姓名:
+@Html.TextBox("name")
+
+    帳號:
+@Html.TextBox("account")
+
+
+    密碼:
+@Html.Password("password")
+
+
+    性別:
+@Html.RadioButton("isNew", "A") 男性
+@Html.RadioButton("isNew", "B") 女性
